@@ -3,7 +3,6 @@
    License: none (public domain)
 */
 
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
 @font-face {
     font-family: DKpen;
     src: local("DK Crayon Crumble");
@@ -71,8 +70,7 @@ html {
 	outline: 0 none;
 }
 body {
-	font-family: 'Quicksand', sans-serif;
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Quicksand', 'Avenir', sans-serif,
 	font-weight: 400;
 	color: #6d6e71;
 	line-height: 24px;
@@ -202,8 +200,8 @@ a:hover, a:focus {
     opacity: 1;
     color: #000;
 	padding:10px;
-  font-family: "DKpen";
-    font-weight: bold;
+  font-family: "DKpen", 'Raleway', sans-serif;
+    font-weight: 400;
     font-size: 25px !important;
     text-decoration: none;
 }
@@ -552,7 +550,8 @@ a:hover, a:focus {
 }
 .intro h2{
 	font-size:36px;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Quicksand', 'Avenir', sans-serif;
+  font-weight: 400;
 	color:#22ADC2;
   text-align: center;
 }
@@ -633,7 +632,8 @@ a:hover, a:focus {
 	padding-bottom:30px;
 }
 .key h2{
-	font-family: 'DKpen', sans-serif;
+	font-family: 'DKpen', 'Raleway', sans-serif;
+  font-weight:400;
 	color:#22ADC2;
 	font-size:36px;
 }
@@ -662,10 +662,10 @@ a:hover, a:focus {
 	margin:80px 0;
 }
 .varius h3{
-	font-family: 'DKpen', sans-serif;
+	font-family: 'DKpen', 'Raleway', sans-serif;
 	font-size:24px;
 	line-height:18px;
-	font-weight:bold;
+	font-weight:400;
 }
 .varius p {
     font-size: 13px;
@@ -685,7 +685,7 @@ img.mobile{
 	background:#22ADC2;
 }
 .watch h3{
-	font-family: 'DKpen', sans-serif;
+	font-family: 'DKpen', 'Raleway', sans-serif;
 	font-size:36px;
   font-weight: 400;
   color: #F35C9F;
@@ -731,7 +731,8 @@ img.mobile{
 	text-align:center;
 }
 .team h3{
-	font-family: 'DKpen', sans-serif;
+	font-family: 'DKpen', 'Raleway', sans-serif;
+  font-weight: 400;
   color:#22ADC2;
   font-size: 40px;
 }
@@ -863,7 +864,8 @@ img.mobile{
 	text-align:center;
 }
 .customer h3{
-	font-family: 'DKpen', sans-serif;
+	font-family: 'DKpen', 'Raleway', sans-serif;
+  font-weight: 400;
 	font-size:36px;
 	color:#22ADC2;
 	text-transform:uppercase;
@@ -1018,7 +1020,7 @@ footer{
 	text-align:center;
 }
 .contact h3{
-	font-family: 'DKpen', sans-serif;
+	font-family: 'DKpen', 'Raleway', sans-serif;
   color:#22ADC2;
   font-size:44px;
   font-weight:500;
@@ -1026,7 +1028,7 @@ footer{
 
 
 .social h3{
-	font-family: 'DKpen', sans-serif;
+	font-family: 'DKpen', 'Raleway', sans-serif;
   color:#F35C9F;
   font-size:36px;
 }
