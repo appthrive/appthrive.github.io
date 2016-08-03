@@ -1645,13 +1645,14 @@ img.mobile {
     font-size: 16px;
 }
 .intro {
-    padding-top: 26px;
+    padding-top: 100px;
+    padding-bottom: 40px;
 }
 .step {
     padding-top: 5px;
 }
 .dwonload {
-    padding-top:20px;
+    padding-top:40px;
     text-align: center;
 }
 #backgrownd {
