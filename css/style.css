@@ -757,8 +757,8 @@ img.mobile{
 	}
 
 	.caption-style-4 li{
-		float: left;
-		padding: 0px;
+		float:left;
+    padding: 0px;
 		position: relative;
 		overflow: hidden;
 	}
