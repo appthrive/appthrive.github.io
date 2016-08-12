@@ -3,3 +3,7 @@ markdown: kramdown
 
 gems:
   - jekyll-sitemap
+  - jekyll-coffeescript
+  - jekyll-watch
+  - jekyll-assets
+ # This will require each of these gems automatically.
