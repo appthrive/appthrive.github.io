@@ -6,4 +6,7 @@ gems:
   - jekyll-coffeescript
   - jekyll-watch
   - jekyll-assets
+  - jekyll-seo-tag
  # This will require each of these gems automatically.
+ 
+
