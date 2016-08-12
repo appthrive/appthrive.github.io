@@ -15,6 +15,11 @@
 <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 
 <!--CSS-->
+<!-- Useful for styles with static names... -->
+<link href="{{ site.github.url }}/path/to/css.css" rel="stylesheet">
+<!-- and for documents/pages whose URL's can change... -->
+<a href="{{ page.url | prepend: site.github.url }}">{{ page.title }}</a>
+
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -291,7 +296,7 @@
           </div>
         </div><!--col-->
 
-         <div class="col-lg-3 col-md-6 col-sm-3">
+         <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="clearfix">
             <ul class="caption-style-4">
             <li class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0.50s"> <img src="images/mandeep.png" alt="evachens">
